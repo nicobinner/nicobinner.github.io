@@ -1,6 +1,15 @@
 @font-face {
   font-family: 'PPEditorialOld';
-  src: url('https://nicobinner.github.io/fuentes/ppeditorialold-regular-webfont.woff2') format('woff2');
+  src: url('https://nicobinner.github.io/fuentes/ppeditorialold-regular-webfont.woff2') format('woff2'),
+       url('https://nicobinner.github.io/fuentes/ppeditorialold-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'PPEditorialOld';
+  src: url('https://nicobinner.github.io/fuentes/ppeditorialold-italic-webfont.woff2') format('woff2'),
+       url('https://nicobinner.github.io/fuentes/ppeditorialold-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
 }
